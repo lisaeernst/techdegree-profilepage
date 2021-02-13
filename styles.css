@@ -78,6 +78,18 @@ header .profile-image:hover {
   /*transform: scale(1.5);*/
   transition: all 1s ease-out;
 }
+/* custom header image for experience page */
+
+.experience-page-header {
+  text-align: center;
+  background: url('images/desk_with_mug.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+/* End of custome experience page header */
+
+
 .tag {
   background-color: #e5bc5f96;
   color: white;
