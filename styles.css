@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #dad8d8;
+  color: #ffffff;
 }
 a:hover {
   color: #9da26b;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #c7b277;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -53,7 +53,7 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: #e5bc5f;
+  color: #000000;
 }
 
 header {
@@ -70,13 +70,14 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 5px solid #e5bc5f96;
-  transition: all .5s;
+  transition: width 2s, height 2s, border-color 2s, transform 2s;
+
 }
 header .profile-image:hover {
-  /*transform: scale(1.5);*/
-  transition: all 1s ease-out;
+  transform: rotate(360deg);
+  background-color: #53582eed;
 }
 /* custom header image for experience page */
 
@@ -131,10 +132,15 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 2px;
+  border-bottom: 4px solid rgb(146, 146, 146);
+  transition: all .5s;
 }
 
 .skills li:nth-child(odd) {
   background: #e5bc5f;
+}
+.skills li:hover {
+  border-color: rgb(130, 200, 202);
 }
 
 footer {
