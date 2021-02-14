@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #999;
 }
 a:hover {
   color: #9da26b;
@@ -31,6 +31,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+
 .nav {
   display: flex;
   justify-content: space-around;
@@ -51,6 +52,7 @@ a:hover {
 }
 .nav a {
   transition: all .5s;
+  color: white;
 }
 .nav a:hover {
   color: #000000;
@@ -92,8 +94,8 @@ header .profile-image:hover {
 
 
 .tag {
-  background-color: #e5bc5f96;
-  color: white;
+  background-color: #e5bc5fdb;
+  color: black;
   padding: 10px;
   border-radius: 10px;
   display: table;
@@ -101,8 +103,8 @@ header .profile-image:hover {
 }
 
 .location {
-  background-color: #e5bc5f94;
-  color: white;
+  background-color: #e5bc5fdb;
+  color: black;
   border-radius: 15px;
 }
 .card {
@@ -190,6 +192,44 @@ a.social:hover {
   clear: both;
 }
 
+/* Contact form */
+.contact-form {
+  background: #fcf2d8;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+.form-field {
+
+}
+input#UsernameInput, input#EmailInput {
+  display: block;
+  margin: 10px 0;
+}
+.submitbutton {
+  width: 100%;
+  padding: 5px;
+  margin-top: 15px;
+  background-color:#c7b277;
+  border-radius: 5px;
+  border: none;
+}
+.submitbutton:hover {
+  background-color: rgb(102, 90, 45);
+  color: white;
+  border: none;
+}
+address {
+  background-color: #fcf2d8;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+figure img {
+  border: solid 5px #fcf2d8;
+}
+figcaption {
+  padding-top: 10px;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
