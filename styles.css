@@ -218,6 +218,9 @@ input#UsernameInput, input#EmailInput {
   color: white;
   border: none;
 }
+/* end of contact form styles */
+
+/* address and map styles */
 address {
   background-color: #fcf2d8;
   padding: 12px;
@@ -230,6 +233,9 @@ figure img {
 figcaption {
   padding-top: 10px;
 }
+
+/* end of address and map styles */
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
