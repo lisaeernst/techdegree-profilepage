@@ -134,7 +134,7 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 2px;
-  border-bottom: 4px solid rgb(146, 146, 146);
+  border-bottom: 4px solid rgb(110, 110, 110);
   transition: all .5s;
 }
 
@@ -142,7 +142,7 @@ ul.skills {
   background: #e5bc5f;
 }
 .skills li:hover {
-  border-color: rgb(130, 200, 202);
+  border-color: rgb(99, 186, 189);
 }
 
 footer {
@@ -228,13 +228,19 @@ address {
   border-radius: 10px;
 }
 figure img {
-  border: solid 5px #fcf2d8;
+  border: solid 5px #dcdcda;
 }
 figcaption {
   padding-top: 10px;
 }
-
 /* end of address and map styles */
+
+/* bottom border for the active navigation link in main nav */
+.nav .active-nav {
+  border-bottom: 3px solid white;
+}
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
