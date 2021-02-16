@@ -240,6 +240,13 @@ figcaption {
   border-bottom: 3px solid white;
 }
 
+/* images inside the .card containers not resizing in Firefox this fixes that */
+
+.card img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
 
 
 /* Styles for larger screens */
