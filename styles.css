@@ -248,6 +248,9 @@ figcaption {
   height: auto;
 }
 
+/* End of image scaling */
+
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
