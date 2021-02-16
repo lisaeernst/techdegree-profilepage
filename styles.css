@@ -239,17 +239,29 @@ figcaption {
 .nav .active-nav {
   border-bottom: 3px solid white;
 }
-
-/* images inside the .card containers not resizing in Firefox this fixes that */
-
+/* Images not scaling and over flowing flex containters in chrome this is a fix */
 .card img {
   width: 100%;
+  min-width: 300px;
+}
+
+/* images inside the flex containers not resizing or overlflowing in Firefox this is a fix */
+
+@-moz-document url-prefix() {
+.card img {
+  width: 100%;
+  min-width: 300px;
   max-width: 100%;
   height: auto;
+  
+}
+figure .mapimg {
+  min-width: 250px;
+  
+}
 }
 
 /* End of image scaling */
-
 
 
 /* Styles for larger screens */
